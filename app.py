@@ -29,5 +29,5 @@ def resumir():
         return jsonify({'error': str(e)}), 400
 
 # Elimina o comenta la siguiente línea si la tienes en el archivo
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=False)
+#if __name__ == '__main__':
+#    app.run(host='0.0.0.0', port=8080, debug=False)
